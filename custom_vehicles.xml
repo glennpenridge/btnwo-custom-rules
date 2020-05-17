@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema vehicles.xsd">
+  <vehicles>
+    <vehicle>
+      <id>06a1c7f6-5a54-4e82-876f-c36a46e22014</id>
+      <name>MCT Mobility Vector</name>
+      <page>1</page>
+      <source>BTNWO</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>0</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>13000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2G</speed>
+      <seats>1</seats>
+    </vehicle>
+  </vehicles>
+</chummer>

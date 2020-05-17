@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema books.xsd">
+	<cyberwares>
+		<cyberware xpathfilter="name='Synthetic Skull'">
+			<capacity>4</capacity>
+		</cyberware>
+		<cyberware xpathfilter="name='Obvious Skull'">
+			<capacity>6</capacity>
+		</cyberware>
+	</cyberwares>
+</chummer>

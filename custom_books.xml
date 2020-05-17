@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema books.xsd">
+  <books>
+    <book>
+			<id>d0c34cdd-cb15-4919-9220-5883be5e2aa8</id>
+			<name>B-Team/New World Order</name>
+			<code>BTNWO</code>
+		</book>
+  </books>
+</chummer>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.w3.org/2001/XMLSchema gear.xsd">
+  <gears>
+    <!--
+      We can't use the inherit a rating from the parent node, which sucks... so we have to split it into 
+      multiple entries for Ratings 1 to 6.
+    -->
+
+    <!-- Rating 1 -->
+    <gear>
+      <id>9456bdb4-1669-4cfa-9e59-61ab35ff3140</id>
+      <name>Agent Host (Rating 1)</name>
+      <category>Commlink Accessories</category>
+      <source>BTNWO</source>
+      <page>1</page>
+      <avail>2</avail>
+      <cost>250</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+            <category>Custom</category>
+          </OR>
+        </geardetails>
+      </required>
+      <gears>
+        <usegear>
+          <name>Agent</name>
+          <category>Software</category>
+          <rating>1</rating>
+        </usegear>
+      </gears>
+    </gear>
+
+    <!-- Rating 2 -->
+    <gear>
+      <id>115a5d8e-521b-47ff-999f-d0fda6a15776</id>
+      <name>Agent Host (Rating 2)</name>
+      <category>Commlink Accessories</category>
+      <source>BTNWO</source>
+      <page>1</page>
+      <avail>4</avail>
+      <cost>500</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+            <category>Custom</category>
+          </OR>
+        </geardetails>
+      </required>
+      <gears>
+        <usegear>
+          <name>Agent</name>
+          <category>Software</category>
+          <rating>2</rating>
+        </usegear>
+      </gears>
+    </gear>
+
+    <!-- Rating 3 -->
+    <gear>
+      <id>488d327f-66a6-4197-9846-6f35e4d314e6</id>
+      <name>Agent Host (Rating 3)</name>
+      <category>Commlink Accessories</category>
+      <source>BTNWO</source>
+      <page>1</page>
+      <avail>6</avail>
+      <cost>750</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+            <category>Custom</category>
+          </OR>
+        </geardetails>
+      </required>
+      <gears>
+        <usegear>
+          <name>Agent</name>
+          <category>Software</category>
+          <rating>3</rating>
+        </usegear>
+      </gears>
+    </gear>
+    
+    <!-- Rating 4 -->
+    <gear>
+      <id>55be89b8-2a51-44dc-b798-4374855f72e3</id>
+      <name>Agent Host (Rating 4)</name>
+      <category>Commlink Accessories</category>
+      <source>BTNWO</source>
+      <page>1</page>
+      <avail>8</avail>
+      <cost>1000</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+            <category>Custom</category>
+          </OR>
+        </geardetails>
+      </required>
+      <gears>
+        <usegear>
+          <name>Agent</name>
+          <category>Software</category>
+          <rating>4</rating>
+        </usegear>
+      </gears>
+    </gear>
+
+    <!-- Rating 5 -->
+    <gear>
+      <id>923c4401-6bdf-4a10-bf01-1d5b1944e181</id>
+      <name>Agent Host (Rating 5)</name>
+      <category>Commlink Accessories</category>
+      <source>BTNWO</source>
+      <page>1</page>
+      <avail>10</avail>
+      <cost>1250</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+            <category>Custom</category>
+          </OR>
+        </geardetails>
+      </required>
+      <gears>
+        <usegear>
+          <name>Agent</name>
+          <category>Software</category>
+          <rating>5</rating>
+        </usegear>
+      </gears>
+    </gear>
+
+    <!-- Rating 6 -->
+    <gear>
+      <id>bcc5663b-aab0-4189-923b-de792495dac5</id>
+      <name>Agent Host (Rating 6)</name>
+      <category>Commlink Accessories</category>
+      <source>BTNWO</source>
+      <page>1</page>
+      <avail>12</avail>
+      <cost>1500</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+            <category>Custom</category>
+          </OR>
+        </geardetails>
+      </required>
+      <gears>
+        <usegear>
+          <name>Agent</name>
+          <category>Software</category>
+          <rating>6</rating>
+        </usegear>
+      </gears>
+    </gear>
+  </gears>
+</chummer>

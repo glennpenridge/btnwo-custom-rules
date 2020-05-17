@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema cyberware.xsd">
+  <cyberwares>
+    <cyberware>
+      <id>84c96377-7905-440b-9d29-92207a60f588</id>
+      <name>Polychromic Lens</name>
+      <category>Eyeware</category>
+      <ess>0.1</ess>
+      <capacity>[0]</capacity>
+      <avail>6</avail>
+      <cost>500</cost>
+      <source>BTNWO</source>
+      <page>1</page>
+      <required>
+        <parentdetails>
+          <name operation="contains">Cybereyes Basic System</name>
+        </parentdetails>
+      </required>
+    </cyberware>
+  </cyberwares>
+</chummer>
