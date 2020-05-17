@@ -1,0 +1,2 @@
+# Don't commit anything back to the Github repository so we don't fill it up with crap.
+dist/*
